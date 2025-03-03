@@ -5,7 +5,7 @@ function getComputerChoice() {
   let randomNumber = Math.random();
   return randomNumber <= 0.333
     ? "ROCK"
-    : randomNumber <= 0.66
+    : randomNumber <= 0.666
     ? "PAPER"
     : "SCISSORS";
 }
