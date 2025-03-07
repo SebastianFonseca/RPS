@@ -1,6 +1,3 @@
-# git_test
+# Rock Paper Scissors 
 
-Repo created within the odin proyect's assigents
-
-
-Hello Odin!
+This is a small implementation of the classic RPS game, built whith Js, HTML and CSS technologies 
