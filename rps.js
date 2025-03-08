@@ -49,11 +49,9 @@ function playRound(humanChoice, computerchoice) {
 }
 
 (function playGame() {
-  for (let i = 0; i < 5; i++) {
-    let computer = getComputerChoice();
-    let human = getHumanChoice();
-    playRound(human, computer);
-  }
+  let computer = getComputerChoice();
+  let human = getHumanChoice();
+  playRound(human, computer);
 
   if (computerScore > humanScore) {
     alert(`I win! Final score - You: ${humanScore} | Me: ${computerScore}`);
@@ -64,4 +62,12 @@ function playRound(humanChoice, computerchoice) {
       `It's a tie! Final score - You: ${humanScore} | Me: ${computerScore}`
     );
   }
-})();
+});
+
+const startGameButton = document.querySelector("#startGameButton");
+startGameButton.addEventListener("click", () => {
+  const mainHtml = document.querySelector("html");
+  const startDiv = document.getElementById("startDiv");
+  mainHtml.removeChild(startDiv);
+  // startGameButton.classList.add("hidden");
+});

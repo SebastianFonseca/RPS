@@ -1,3 +1,3 @@
-# Rock Paper Scissors 
+# Rock Paper Scissors
 
-This is a  implementation of the classic RPS game, built whith Js, HTML and CSS technologies 
+This is a small implementation of the classic RPS game, built with Js, HTML and CSS technologies

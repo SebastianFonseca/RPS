@@ -4,8 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPS</title>
+    <script src="rps.js" defer></script>
+    <link rel="stylesheet" href="rps.css" />
   </head>
   <body>
-    <script src="rps.js"></script>
+    <div class="startDiv" id="startDiv">
+      <button class="roundedButton" id="startGameButton">START GAME</button>
+    </div>
+
+    <div id="board">
+      <div id="left" class="columnDiv">
+        <div class="cardDiv" style="border-style: hidden">👤</div>
+        <div class="cardDiv">🪨</div>
+        <div class="cardDiv">📄</div>
+        <div class="cardDiv">✂️</div>
+      </div>
+
+      <div id="center" class="columnDiv"></div>
+
+      <div id="right" class="columnDiv">
+        <div class="cardDiv" style="border-style: hidden">🖥️</div>
+        <div class="cardDiv">🪨</div>
+        <div class="cardDiv">📄</div>
+        <div class="cardDiv">✂️</div>
+      </div>
+    </div>
   </body>
 </html>

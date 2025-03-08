@@ -1,0 +1,70 @@
+html {
+  background-color: #87ceeb;
+}
+
+.startDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin: 10px;
+}
+
+.cardDiv {
+  border-radius: 10%;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.5px;
+  height: auto;
+  font-size: xx-large;
+  margin: 10%;
+  padding: 10px;
+}
+
+.cardDiv:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#board {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: row;
+  height: 100vh; /* Full viewport height */
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none; /* Prevents interaction after fading */
+}
+
+.roundedButton {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border-color: #9400d3;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #ff4500;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 20px;
+}
+
+.roundedButton:hover {
+  background-color: #8a2be2;
+  cursor: pointer;
+}
