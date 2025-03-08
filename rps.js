@@ -66,8 +66,8 @@ function playRound(humanChoice, computerchoice) {
 
 const startGameButton = document.querySelector("#startGameButton");
 startGameButton.addEventListener("click", () => {
-  const mainHtml = document.querySelector("html");
+  const mainBody = document.querySelector("body");
   const startDiv = document.getElementById("startDiv");
-  mainHtml.removeChild(startDiv);
+  mainBody.removeChild(startDiv);
   // startGameButton.classList.add("hidden");
 });
