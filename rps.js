@@ -1,5 +1,9 @@
 let humanScore = 0;
 let computerScore = 0;
+const boardHumanScore = document.querySelector("#humanScore");
+boardHumanScore.textContent = humanScore;
+const boardComputerScore = document.querySelector("#computerScore");
+boardComputerScore.textContent = computerScore;
 
 function getComputerChoice() {
   let randomNumber = Math.random();
@@ -69,5 +73,8 @@ startGameButton.addEventListener("click", () => {
   const mainBody = document.querySelector("body");
   const startDiv = document.getElementById("startDiv");
   mainBody.removeChild(startDiv);
-  // startGameButton.classList.add("hidden");
+  const board = document.querySelector("#board");
+  board.classList.remove("hidden");
+  const divScore = document.querySelector("#score");
+  divScore.classList.remove("hidden");
 });

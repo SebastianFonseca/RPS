@@ -6,24 +6,46 @@
     <title>RPS</title>
     <script src="rps.js" defer></script>
     <link rel="stylesheet" href="rps.css" />
-  </head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+    </style>
   <body>
+    
     <div class="startDiv" id="startDiv">
+
+      <h1>Rules</h1>
+      <ul>
+        <li>Let's play 5 rounds and see who gets lucky!</li>
+        <li>Remember:
+          <ul>
+          <li>Rock beats Scissors</li>
+          <li>Scissor beats Paper </li>
+          <li>Paper beats Rock </li>
+          </ul>
+        </li>
+      </ul>
       <button class="roundedButton" id="startGameButton">START GAME</button>
     </div>
 
-    <div id="board">
+    <div id="score" class="hidden" >
+      <p id="humanScore"></p>
+      <p id="computerScore"></p>
+    </div>
+
+    <div id="board" class="hidden" >
       <div id="left" class="columnDiv">
-        <div class="cardDiv" style="border-style: hidden">👤</div>
+        <div style="font-size: xx-large">👤</div>
         <div class="cardDiv">🪨</div>
         <div class="cardDiv">📄</div>
         <div class="cardDiv">✂️</div>
       </div>
 
-      <div id="center" class="columnDiv"></div>
+      <div id="center" class="columnDiv">
+        <img src="vs-letters-versus-png.webp" />
+      </div>
 
       <div id="right" class="columnDiv">
-        <div class="cardDiv" style="border-style: hidden">🖥️</div>
+        <div style="font-size: xx-large">🖥️</div>
         <div class="cardDiv">🪨</div>
         <div class="cardDiv">📄</div>
         <div class="cardDiv">✂️</div>

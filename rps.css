@@ -1,58 +1,29 @@
-html {
+body {
   background-color: #87ceeb;
+  display: flex;
+  flex-direction: column;
+  font-family: "Saira Stencil One";
+}
+
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .startDiv {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.columnDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  margin: 10px;
-}
-
-.cardDiv {
-  border-radius: 10%;
-  border-color: black;
-  border-style: solid;
-  border-width: 0.5px;
-  height: auto;
-  font-size: xx-large;
-  margin: 10%;
-  padding: 10px;
-}
-
-.cardDiv:hover {
-  background-color: red;
-  cursor: pointer;
-}
-
-#board {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-  flex-direction: row;
   height: 100vh; /* Full viewport height */
-}
-
-.hidden {
-  opacity: 0;
-  pointer-events: none; /* Prevents interaction after fading */
+  width: 100vw; /* Full viewport width */
+  flex-direction: column;
 }
 
 .roundedButton {
-  width: 150px;
-  height: 150px;
+  width: 20vh;
+  height: 20vh;
   border-radius: 10%;
   border-color: #9400d3;
   border-style: solid;
@@ -62,9 +33,105 @@ html {
   font-weight: bolder;
   font-size: larger;
   padding: 20px;
+
+  -webkit-box-shadow: -16px 16px 11px 1px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: -16px 16px 11px 1px rgba(0, 0, 0, 0.19);
+  box-shadow: -16px 16px 11px 1px rgba(0, 0, 0, 0.19);
 }
 
 .roundedButton:hover {
   background-color: #8a2be2;
   cursor: pointer;
+  width: 21vh;
+  height: 21vh;
+}
+
+#score {
+  background-color: #ff4500;
+  height: 5%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-height: 30px;
+}
+
+#computerScore {
+  margin-left: auto;
+  font-weight: bolder;
+  font-size: xx-large;
+
+  font-family: "Saira Stencil One";
+}
+
+#humanScore {
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: "Saira Stencil One";
+}
+
+.saira-stencil-one-regular {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.columnDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin: 10px;
+
+  width: 33vh;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+  font-size: xx-large;
+  margin: 10%;
+  padding: 10px;
+
+  width: 15vh;
+  height: 15vh;
+  border-radius: 10%;
+  border-color: #9400d3;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #ff4500;
+  font-weight: bolder;
+
+  -webkit-box-shadow: -16px 16px 11px 1px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: -16px 16px 11px 1px rgba(0, 0, 0, 0.19);
+  box-shadow: -16px 16px 11px 1px rgba(0, 0, 0, 0.19);
+}
+
+.cardDiv:hover {
+  background-color: #8a2be2;
+  cursor: pointer;
+}
+
+#board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+
+  border-radius: 2%;
+
+  background-color: #4dbde9;
+  margin: 3%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
