@@ -42,17 +42,17 @@ body {
 .roundedButton:hover {
   background-color: #8a2be2;
   cursor: pointer;
-  width: 21vh;
-  height: 21vh;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 #score {
   background-color: #ff4500;
-  height: 5%;
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
-  min-height: 30px;
+  justify-content: space-between; /* Pushes items to the edges */
+  align-items: center; /* Aligns vertically */
 }
 
 #computerScore {
@@ -61,12 +61,23 @@ body {
   font-size: xx-large;
 
   font-family: "Saira Stencil One";
+
+  width: 100px; /* Ensures equal width for scores */
+  text-align: center;
 }
 
 #humanScore {
   font-weight: bolder;
   font-size: xx-large;
   font-family: "Saira Stencil One";
+
+  width: 100px; /* Ensures equal width for scores */
+  text-align: center;
+}
+
+#messageScore {
+  flex-grow: 1; /* Takes up remaining space */
+  text-align: center;
 }
 
 .saira-stencil-one-regular {
@@ -89,12 +100,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: auto;
   font-size: xx-large;
   margin: 10%;
   padding: 10px;
-
   width: 15vh;
   height: 15vh;
   border-radius: 10%;
@@ -112,6 +121,12 @@ body {
 .cardDiv:hover {
   background-color: #8a2be2;
   cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cardDivSelectedComputer {
+  background-color: #8a2be2;
+  transform: scale(1.1);
 }
 
 #board {
@@ -119,11 +134,9 @@ body {
   flex-direction: row;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-
   border-radius: 2%;
-
   background-color: #4dbde9;
-  margin: 3%;
+  margin: 1%;
 }
 
 .hidden {
@@ -134,4 +147,15 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9;
+}
+
+.restartDiv {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+
+  width: 100vw;
+  height: 90vh;
+  background-color: #4dbde9;
+  position: absolute;
 }

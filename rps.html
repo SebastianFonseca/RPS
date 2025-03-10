@@ -29,15 +29,16 @@
 
     <div id="score" class="hidden" >
       <p id="humanScore"></p>
+      <h2 id="messageScore"> Let's begin! </h2>
       <p id="computerScore"></p>
     </div>
 
     <div id="board" class="hidden" >
       <div id="left" class="columnDiv">
         <div style="font-size: xx-large">👤</div>
-        <div class="cardDiv">🪨</div>
-        <div class="cardDiv">📄</div>
-        <div class="cardDiv">✂️</div>
+        <div class="cardDiv" id="rock">🪨</div>
+        <div class="cardDiv" id="paper">📄</div>
+        <div class="cardDiv" id="scissors">✂️</div>
       </div>
 
       <div id="center" class="columnDiv">
@@ -46,9 +47,10 @@
 
       <div id="right" class="columnDiv">
         <div style="font-size: xx-large">🖥️</div>
-        <div class="cardDiv">🪨</div>
-        <div class="cardDiv">📄</div>
-        <div class="cardDiv">✂️</div>
+        <div class="cardDiv" id="computerScissors" >✂️</div>
+        <div class="cardDiv" id="computerPaper" >📄</div>
+        <div class="cardDiv" id="computerRock" >🪨</div>
+        
       </div>
     </div>
   </body>
