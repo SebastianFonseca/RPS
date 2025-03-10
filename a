@@ -1,0 +1,90 @@
+[33mcommit 8f479a38cd648ee131c9ce9b2e987ba1ee50f398[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/rps-ui[m[33m, [m[1;32mrps-ui[m[33m)[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Sun Mar 9 19:03:09 2025 -0500
+
+    GUI is now more dinamic using JS
+
+[33mcommit b46f62bf50f7862e4923fce6a2673780a1bf1f97[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Sun Mar 9 13:28:37 2025 -0500
+
+    GUI implementation
+
+[33mcommit 061cf09d0968edc50fb8537bcdb87e9d02c48b59[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Fri Mar 7 21:42:34 2025 -0500
+
+    Start game button disapear when pressed
+
+[33mcommit 753ad6566084aecc81e9a6989236717f64541199[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Fri Mar 7 21:32:20 2025 -0500
+
+    Inical GUI design
+
+[33mcommit 0156c5ec41c7e154dde13581d64abefba55c2ca7[m
+Merge: 8ba394b 30b1233
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Fri Mar 7 18:23:46 2025 -0500
+
+    Merge branch 'main' of github.com:SebastianFonseca/git_test
+
+[33mcommit 8ba394bacbb3f9e834c74f1a57d0112fa8101312[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Fri Mar 7 18:23:01 2025 -0500
+
+    Just a trie
+
+[33mcommit 30b12336fc905185cab57dcdf2e8ce4512a7bd33[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: SebastianFonseca <sebastianfonck1@gmail.com>
+Date:   Fri Mar 7 06:58:38 2025 -0500
+
+    Update README.md
+
+[33mcommit 156c0a2513b0c2f5978e9f891861a5b9523fbd71[m
+Author: SebastianFonseca <sebastianfonck1@gmail.com>
+Date:   Fri Mar 7 06:45:34 2025 -0500
+
+    Update README.md
+
+[33mcommit 3116620d7debb7ac46510a133a8234a73554820d[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Sun Mar 2 19:47:22 2025 -0500
+
+    Final versionROCK PAPER SCISSORS game played mainly on the console.
+
+[33mcommit 019ee041c528b0550c61ae24638c18ec942ecfad[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Sat Feb 15 23:40:40 2025 -0500
+
+    Complete implementation
+
+[33mcommit 5dc2c47bc7642a35a384b3e77938d027dea483b8[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Thu Sep 5 16:41:16 2024 -0500
+
+    Cambios prueba message commit vsc
+
+[33mcommit 8d8f1673b23a98a5452f6ce6321968acf850189e[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Thu Sep 5 16:21:21 2024 -0500
+
+    Edit README.md and hello_world.txt
+
+[33mcommit c4c7a4d670b7601c04b25a0726e9b6ecdf447470[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Thu Sep 5 15:57:42 2024 -0500
+
+    README changes
+
+[33mcommit 65ed000659fdfc3616221146bb0bb0e33a409875[m
+Author: Sebastian Fonseca <sebastianfonck@hotmail.com>
+Date:   Thu Sep 5 15:46:04 2024 -0500
+
+    Add hello_world.txt
+
+[33mcommit a127d6c8bc382e8a0881dcafc79252aa305982cf[m
+Author: SebastianFonseca <sebastianfonck1@gmail.com>
+Date:   Thu Sep 5 15:04:17 2024 -0500
+
+    Initial commit
