@@ -2,7 +2,7 @@ body {
   background-color: #87ceeb;
   display: flex;
   flex-direction: column;
-  font-family: "Saira Stencil One";
+  font-family:'Segoe UI Emoji', 'Noto Color Emoji', "Saira Stencil One";
 }
 
 html,
